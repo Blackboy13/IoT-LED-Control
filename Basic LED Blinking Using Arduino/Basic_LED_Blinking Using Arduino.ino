@@ -1,15 +1,10 @@
-//Turns on an LED on for one second, then off for one second, repeatedly.
 
-// the setup function runs once when you press reset or power the board
-
-void setup() {  // initialize digital pin 2 as an output.
+void setup() { 
    pinMode(2, OUTPUT);
 }
-
-// the loop function runs over and over again forever
 void loop() {
-   digitalWrite(2, HIGH); // turn the LED on
-   delay(1000); // wait for a second
-   digitalWrite(2, LOW); // turn the LED off
-   delay(1000); // wait for a second
+   digitalWrite(2, HIGH); 
+   delay(1000);
+   digitalWrite(2, LOW); 
+   delay(1000); 
 }
